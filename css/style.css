@@ -134,6 +134,10 @@ p{
     padding: 62px 23px;
     border-radius: 5px;
     margin-right: 24px;
+    transition: 0.3s;
+}
+.donate-plan:hover{
+    box-shadow: 0 0 10px #AA9F9F;
 }
 .donate-plan img,h4{
     margin-bottom: 20px;
@@ -180,12 +184,12 @@ p{
    width: 456px;
    height: 477px;
    margin-left: 83px;
-   overflow: hidden;
+   box-shadow: 10px 10px 40px #161716;
 }
-.section-3 img:hover{
-    transform: scale(1.2);
-} 
-/* ----------------------------section-3,4------------------------ */
+/* .section-3 img:hover{
+    box-shadow: 0 0 30px #B3B3B3;
+}  */
+/* ----------------------------section-4------------------------ */
 .section-4{
     display: flex;
     align-items: center;
@@ -195,11 +199,9 @@ p{
     width: 456px;
     height: 477px;
     margin-right: 83px;
-    overflow: hidden;
+    box-shadow: 10px 10px 40px #161716;
  } 
- .section-4 img:hover{
-    transform: scale(1.2);
-} 
+
 /* ----------------------------section-5------------------------ */
 
 .my-update{
